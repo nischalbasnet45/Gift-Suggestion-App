@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(#27a5f9, #059842);
+    /* Add some additional styling for better visibility */
+    color: #fff; /* Text color */
+    font-family: Arial, sans-serif; /* Font family */
+    text-align: center; /* Center-align text */
+    padding: 20px; /* Add some padding for readability */
+    height: 700px;
+}
+#container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+input[type="number"], select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+input[type="text"] {
+    width: 97%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#bestdeals{
+    background-color: orangered;
+}

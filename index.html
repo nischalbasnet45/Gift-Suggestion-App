@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Suggestion Web App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Gift Suggestion Web App</h1>
+        <label for="recipient">Who is the gift for?</label>
+        <input type="text" id="recipient" placeholder="Recipient's name">
+
+        <label for="occasion">What's the gift for?</label>
+        <select id="occasion">
+            <option value="Birthday">Birthday</option>
+            <option value="Anniversary">Anniversary</option>
+            <option value="Graduation">Graduation</option>
+            <!-- Add more occasion options here -->
+        </select>
+
+        <label for="giftCategory">Type of gift:</label>
+        <select id="giftCategory">
+            <option value="Electronics">Electronics</option>
+            <option value="Books">Books</option>
+            <option value="Jewelry">Jewelry</option>
+            <!-- Add more gift categories here -->
+        </select>
+
+        <button id="suggestButton">Generate Gift Suggestions</button>
+
+        <div id="suggestions"></div>
+    </div>
+    <div id="new"></div>
+    <script src="index.js"></script>
+</body>
+</html>
